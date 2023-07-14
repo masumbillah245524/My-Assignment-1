@@ -1,0 +1,66 @@
+/* Common Part */
+*{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+/* Header Part */
+.head{
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-left: 200px;
+    display: flex;
+    background: rgba(229, 84, 115, 0.10); 
+    align-items: center;
+    justify-content: space-between;
+ 
+}
+.head-text{
+    color: #272727;
+    
+    font-size: 50px;
+    font-weight: 800;
+}
+.head .head-image{
+    width: 500px;
+}
+.head-description{
+color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+.head-button{
+padding: 20px 43px;
+border-radius: 8px;
+background: #E55473;
+gap: 10px;
+border: 0;
+}
+.head-button-design{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+/* About Part */
+.about-hd{
+    text-align: center;
+}
+.about-head{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 24px;
+}
+.about-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-left: 400px;
+    margin-right: 400px;
+    
+}
