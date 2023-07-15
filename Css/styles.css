@@ -6,6 +6,12 @@
 }
 
 /* Header Part */
+.head-left{
+    width: 50%;
+}
+.head-right{
+    width: 50%;
+}
 .head{
     padding-top: 50px;
     padding-right: 100px;
@@ -24,6 +30,8 @@
 }
 .head .head-image{
     width: 500px;
+    position: left bottom;
+    
 }
 .head-description{
 color: rgba(39, 39, 39, 0.60);
@@ -53,7 +61,7 @@ border: 0;
     color: #272727;
     font-size: 40px;
     font-weight: 800;
-    margin-top: 24px;
+    margin-top: 50px;
 }
 .about-description{
     color: rgba(39, 39, 39, 0.60);
@@ -64,3 +72,226 @@ border: 0;
     margin-right: 400px;
     
 }
+
+.about-pic{
+display: flex;
+margin: 50px 145px;
+}
+.about-pic-description{
+    width: 450px;
+    height: 450px;
+    margin-right: 24px;
+}
+#about-pic1{
+
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+#about-pic2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+#about-pic3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    margin-right: 200px;
+}
+.img1{
+    width: 300px;
+    height: 430px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.img2{
+    width: 300px;
+    height: 430px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.img3{
+    width: 300px;
+    height: 430px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.img1-title{
+ color: #272727;
+text-align: center;
+font-size: 24px;
+font-weight: 700;
+text-decoration-line: underline;
+}
+/* Service Part */
+.service-provide{
+display: flex;
+width: 1075px;
+height: 250px;
+border-radius: 8px;
+background: rgba(39, 39, 39, 0.05);
+margin: 100px 145px;
+}
+.service1{
+    align-items: center;
+    margin: 70px 110px;
+}
+.service-img{
+ width: 50px;
+height: 50px;
+padding-left: 40px;
+margin-bottom: 10px;
+}
+.service-img1{
+    width: 50px;
+   height: 50px;
+   padding-left: 20px;
+   margin-bottom: 10px;
+   }
+/* Discount Part */
+.discount-part{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+ .discount{
+    display: flex;
+   margin: 40px 140px;
+   align-items: center;
+  padding: 50px 0;
+
+ }
+ .discount-head{
+color: #272727;
+font-size: 40px;
+font-weight: 800;
+text-align: center;
+ }
+ .dicount-description{
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+margin-top: 10px;
+ }
+ #discount-button{
+    margin-left: 200px;
+    margin-top: 20px;
+ }
+ .discount-right{
+    width: 50%;
+ }
+ .discount-left{
+    width: 50%;
+ }
+ .discount-image{
+    margin-left: 200px;
+    width: 200px;
+height: 300px;
+ }
+/* Instagram Part */
+#instagram{
+    margin-bottom: 20px;
+}
+.instagram-img{
+    display: flex;
+    margin: 40px 130px;
+    
+}
+.instagram-img1{
+    width: 230px;
+height: 300px;
+}
+.img-instagram{
+   margin: 20px;
+}
+/* Deal Part */
+
+.deal-part{
+    position: relative;
+}
+.deal-img{
+    width: 1050px;
+    height: 400px; 
+    border-radius: 8px;
+    margin:40px 140px ;
+    
+}
+
+.text-part h3 {
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    color: #272727;
+   
+    font-size: 40px;
+    font-weight: 800;
+    
+    }
+.text-part p {
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+
+    }
+ .text-part input[type="email"] {
+    position: absolute;
+    top: 50%;
+    left: 22%;
+width: 600px;
+height: 60px;
+border-radius: 8px;
+background: #FFF;
+border: 0;
+ } 
+  .text-part input[type="button"]{
+    position: absolute;
+    top: 50%;
+    left: 69%;
+    width: 120px;
+height: 60px;
+border-radius: 8px;
+background: #E55473;
+border: 0;
+  }
+  .text-part input[placeholder="Write your email"]{
+    font-weight: 800;
+    font-size: 18px;
+    padding-left: 20px;
+  }
+  .text-part input[value="Subscribe"]{
+    font-weight: 800;
+    font-size: 18px;
+    color: #FFF;
+  }
+/* Footer Part */
+  .footer{
+    width: 100%;
+height: 300px;
+background: #111010;
+  }
+   .footer-head{
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 90px;
+    
+   }
+   .footer-description{
+    
+    color: rgba(255, 255, 255, 0.90);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+margin: 20px 0;
+   }
+   .foot{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+   }
